@@ -6,9 +6,10 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
+ * EnableEurekaServer 表明该服务是注册中心
+ *
  * @author ge.pengfei
  */
-
 @SpringBootApplication
 @EnableEurekaServer
 @RestController
